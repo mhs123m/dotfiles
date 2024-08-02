@@ -38,3 +38,5 @@ alias ls="eza --icons=always"
 eval "$(zoxide init zsh)"
 
 alias cd="z"
+
+eval $(thefuck --alias)
