@@ -39,4 +39,7 @@ eval "$(zoxide init zsh)"
 
 alias cd="z"
 
-eval $(thefuck --alias)
+
+# --- aliases --- 
+alias fixit='thefuck'
+alias lg='lazygit'
